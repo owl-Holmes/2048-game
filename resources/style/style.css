@@ -1,0 +1,44 @@
+/* Root container styling with vertical gradient background and subtle shadow */
+.root-pane {
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #f9f5f0 0%, #f0e8dc 30%, #d9b38c 100%);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 2);
+}
+
+/* Bold text for score labels ("Score:" and "Best score:") */
+.score-title-label {
+    -fx-font-weight: bold;
+}
+
+/* Container for score display, with rounded beige background and black border */
+.score-box {
+    -fx-background-color: #F5D8B1;
+    -fx-border-color: black;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+
+/* "New game" button style: beige with rounded corners, bold text, black border */
+.new-game-button {
+    -fx-background-color: #F5D8B1;
+    -fx-border-color: black;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-background-insets: 0;
+    -fx-font-weight: bold;
+}
+
+/* "Retry" button style: pink rounded button with padding and black border */
+.retry-button {
+    -fx-font-size: 16px;
+    -fx-padding: 8 16 8 16;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-background-insets: 0;
+    -fx-background-color: #FFB6C1;
+    -fx-border-color: black;
+}
+
+/* Semi-transparent black overlay shown when the game is over */
+.overlay {
+    -fx-background-color: rgba(0, 0, 0, 0.4);
+}
